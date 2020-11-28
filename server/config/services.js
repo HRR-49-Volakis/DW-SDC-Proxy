@@ -43,7 +43,7 @@
 module.exports = {
   service1: {
     api: '/product_scroller/*',
-    url: 'http://34.229.55.54:3001/',
+    url: 'http://100.26.235.24:3001/',
     bundle: 'bundle.js',
   },
   service2: {
@@ -53,7 +53,7 @@ module.exports = {
   },
   service3: {
     api: '/Bag',
-    url: 'http://52.14.36.65:3001',
+    url: 'http://52.14.36.65:3001/',
     bundle: 'bundle.js',
   },
   service4: {
