@@ -41,24 +41,24 @@
 */
 
 module.exports = {
-  service1: {
-    api: '/product_scroller/*',
-    url: 'http://100.26.235.24:3001/',
-    bundle: 'bundle.js',
-  },
-  service2: {
-    api: '/main',
-    url: 'http://18.217.57.74:3001/ ',
-    bundle: 'bundle.js',
-  },
+  // service1: {
+  //   api: '/product_scroller/*',
+  //   url: 'http://100.26.235.24:3001/',
+  //   bundle: 'bundle.js',
+  // },
+  // service2: {
+  //   api: '/main',
+  //   url: 'http://18.217.57.74:3001/ ',
+  //   bundle: 'bundle.js',
+  // },
   service3: {
     api: '/Bag',
-    url: 'http://52.14.36.65:3001/',
+    url: 'http://localhost:3001/',
     bundle: 'bundle.js',
-  },
-  service4: {
-    api: '/reviews_toggle',
-    url: 'http://18.224.65.20:3004/',
-    bundle: 'bundle.js',
-  },
+  }
+  // service4: {
+  //   api: '/reviews_toggle',
+  //   url: 'http://18.224.65.20:3004/',
+  //   bundle: 'bundle.js',
+  // },
 };
