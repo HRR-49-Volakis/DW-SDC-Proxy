@@ -9,15 +9,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server",
-    "start:dev": "nodemon server"
+    "start:dev": "nodemon server",
+    "stress": "artillery run artillery-server.yaml"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "artillery": "^1.6.1",
     "express": "^4.17.1",
     "http-proxy-middleware": "^1.0.6",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "newrelic": "^7.0.2"
   },
   "devDependencies": {
     "eslint": "^7.13.0",
