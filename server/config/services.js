@@ -53,7 +53,7 @@ module.exports = {
   // },
   service3: {
     api: ['/Bag', '/:item_id','/'],
-    url: 'http://54.69.159.33:80/',
+    url: 'http://34.220.87.94/',
     bundle: 'bundle.js',
   }
   // service4: {
